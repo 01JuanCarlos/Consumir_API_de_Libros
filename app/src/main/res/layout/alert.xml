@@ -1,0 +1,42 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/borde_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Confirmacion"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Información registrada correctamente."
+            android:textSize="13dp"/>
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="131dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center_horizontal"
+            app:cornerRadius="3dp"
+            android:layout_gravity="center_horizontal"
+            android:text="ACEPTAR"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

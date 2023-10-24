@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_gravity="center_horizontal"
-    android:layout_margin="30dp">
+    android:layout_margin="20dp">
 
 
     <TextView
@@ -17,7 +17,7 @@
         android:layout_marginBottom="10dp"/>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:hint="Código ISBN"
         android:layout_marginBottom="10dp">
         <com.google.android.material.textfield.TextInputEditText
@@ -32,7 +32,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:hint="Nombre"
         android:layout_marginBottom="10dp">
         <com.google.android.material.textfield.TextInputEditText
@@ -45,7 +45,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:background="@drawable/borde_list"
         android:layout_marginBottom="10dp">
    <Spinner
@@ -59,9 +59,9 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:hint="Autor"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="10dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtAutor"
             android:layout_width="match_parent"
@@ -70,6 +70,7 @@
             android:textSize="17dp"/>
     </com.google.android.material.textfield.TextInputLayout>
     <Button
+        android:id="@+id/btn_registrar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:hint="Registrar"
@@ -77,12 +78,12 @@
         android:textColorHint="@color/white"
         android:backgroundTint="@color/blue"
         app:cornerRadius="3dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="10dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerLibros"
         android:layout_width="match_parent"
-        android:layout_height="281dp"
+        android:layout_height="270dp"
         tools:listitem="@layout/item_libro" />
 
 </LinearLayout>
