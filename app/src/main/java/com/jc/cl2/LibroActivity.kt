@@ -11,7 +11,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.jc.cl2.database.Libro
-import java.time.LocalDateTime
 
 class LibroActivity: AppCompatActivity(),LibroAdapter.ItemClickListener {
 
