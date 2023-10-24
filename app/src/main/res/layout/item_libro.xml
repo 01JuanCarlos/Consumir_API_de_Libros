@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="30dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+
+
+    >
+
+  <LinearLayout
+      android:background="@drawable/borde_personalizado"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="20dp"
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          android:layout_marginBottom="10dp">
+          <TextView
+              android:layout_width="56dp"
+              android:layout_height="wrap_content"
+              android:text="Nombre: "/>
+          <TextView
+              android:id="@+id/itemTxtNombre"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Cien Años de soledad"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          android:layout_marginBottom="10dp">
+          <TextView
+              android:layout_width="40dp"
+              android:layout_height="wrap_content"
+              android:text="Autor: "/>
+          <TextView
+              android:id="@+id/itemTxtAutor"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="juan acrlos torres miranda"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          >
+          <TextView
+              android:layout_width="50dp"
+              android:layout_height="wrap_content"
+              android:text="código: "/>
+          <TextView
+              android:id="@+id/itemTxtCodigo"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="SASA32"/>
+      </LinearLayout>
+
+  </LinearLayout>
+</androidx.cardview.widget.CardView>
