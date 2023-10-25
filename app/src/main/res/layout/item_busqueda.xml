@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="30dp"
+    android:layout_margin="10dp"
+
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/blueDark"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:text="Nombre: " />
+
+            <TextView
+                android:textColor="@color/blueDark"
+                android:id="@+id/buscarNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cien Años de soledad" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/blueDark"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Descripción: " />
+
+            <TextView
+                android:textColor="@color/blueDark"
+                android:id="@+id/buscardescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="juan acrlos torres miranda" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/blueDark"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="precio: " />
+
+            <TextView
+                android:textColor="@color/blueDark"
+                android:id="@+id/buscarprecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$32.04" />
+        </LinearLayout>
+
+        <View
+            android:backgroundTint="@color/blueDark"            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

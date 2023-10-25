@@ -22,7 +22,7 @@ class LibroActivity: AppCompatActivity(),LibroAdapter.ItemClickListener {
         setContentView(R.layout.activity_libros)
 
         ListaCategoria=findViewById(R.id.categorias)
-        val listaCategoria= arrayOf("Seleccione","Drama","Narrativo","lirico","didactico")
+        val listaCategoria= arrayOf("Categorias","Drama","Narrativo","lirico","didactico")
         var adaptador: ArrayAdapter<String> = ArrayAdapter(this,android.R.layout.simple_spinner_item,listaCategoria)
         ListaCategoria?.adapter=adaptador
 
@@ -47,7 +47,6 @@ class LibroActivity: AppCompatActivity(),LibroAdapter.ItemClickListener {
             textCodigo.setText("")
             textNombre.setText("")
             textAutor.setText("")
-
         }
 
 
