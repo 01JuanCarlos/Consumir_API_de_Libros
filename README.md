@@ -27,7 +27,7 @@ Esta aplicaión permite consultar los libro disponible consumiendo la API https:
 
 <div align="center">
 <p align="center">
-<img src="https://i.ibb.co/HnQTm4N/SVID-20240218-185544-1-online-video-cutter-com.gif">
+<img src="https://i.ibb.co/HnQTm4N/SVID-20240218-185544-1-online-video-cutter-com.gif" width ="300">
 </p>
 
 
